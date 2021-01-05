@@ -1,0 +1,43 @@
+.header{
+   background-color :antiquewhite;
+   display: flex;
+   justify-content: space-between;
+
+
+}
+.start{
+    background-color: beige;
+    text-align: center;
+}
+.main{
+    background-color: bisque;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+
+}
+.sub{
+    background-color: bisque;
+}
+.pic{
+    background-color: bisque; 
+}
+.pic:hover img{
+    opacity:0.6;
+}
+.pic{
+    position: relative;
+}
+.pic img{
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.sub{
+    border-radius: 20px;
+    background-color: lightcoral;
+    padding: 30px;
+    margin: 25px;
+    width: 200px;
+    font-family: cursive;
+}
